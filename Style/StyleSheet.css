@@ -1,0 +1,849 @@
+@media screen and (min-width:768px) {
+
+
+    .circle {
+        height: 10px;
+        width: 10px;
+        border-radius: 24px;
+        background-color: black;
+        position: fixed;
+        top: 0;
+        left: 0;
+        pointer-events: none;
+        z-index: 100%;
+    }
+
+    body::-webkit-scrollbar {
+        width: 10px;
+        /*w3schools(2023)*/
+    }
+
+    ::-webkit-scrollbar-track {
+        background: #f1f1f1;
+        /*w3schools(2023)*/
+    }
+
+
+    ::-webkit-scrollbar-thumb {
+        background: #888;
+        /*w3schools(2023)*/
+    }
+
+
+    ::-webkit-scrollbar-thumb:hover {
+        background: #555;
+        /*w3schools(2023)*/
+    }
+
+    body,
+    html {
+        height: 100%;
+        margin: 0;
+        font: 400 15px/1.8 "Lato", sans-serif;
+        color: #777;
+
+
+    }
+
+    /*w3schools(2023)*/
+
+    h1 {
+        text-align: center;
+        letter-spacing: 5px;
+        text-transform: uppercase;
+        font: 22px "Lato", sans-serif;
+        color: #111;
+        font-style: italic;
+        text-decoration: underline;
+        font-weight: bold;
+    }
+
+    h3 {
+        text-align: center;
+        letter-spacing: 5px;
+        text-transform: uppercase;
+        font: 20px "Lato", sans-serif;
+        color: #111;
+        font-style: italic;
+        text-decoration: underline;
+
+    }
+
+    /*w3schools(2023)*/
+
+
+    p {
+        text-align: center;
+    }
+
+    /*w3schools(2023)*/
+
+
+    table,
+    th,
+    td {
+        border: 1px solid;
+        border-color: #000;
+        border-collapse: collapse;
+        text-align: center;
+        /*w3schools(2023)*/
+    }
+
+    tr:nth-child(odd) {
+        background-color: #bbbbbb;
+        color: #777;
+        /*w3schools(2023)*/
+    }
+
+    th {
+        padding-top: 12px;
+        padding-bottom: 12px;
+        background-color: #777;
+        color: white;
+        /*w3schools(2023)*/
+    }
+
+    table {
+        width: 100%;
+    }
+
+    /*w3schools(2023)*/
+
+
+
+    * {
+        box-sizing: border-box;
+    }
+
+    /*w3schools(2023)*/
+
+    .row {
+        display: flex;
+    }
+
+    /*w3schools(2023)*/
+
+
+    .column {
+        flex: 33.33%;
+        padding: 5px;
+        /*w3schools(2023)*/
+    }
+
+    .column1 {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 70%;
+        /*w3schools(2023)*/
+    }
+
+
+    .column2 {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+        height: auto;
+        /*w3schools(2023)*/
+    }
+
+
+
+    .topnav {
+        overflow: hidden;
+        background-color: #333;
+        top: 0;
+        width: 100%;
+        z-index: 999;
+        position: relative;
+
+    }
+
+    /*w3schools(2023)*/
+
+
+    .topnav a {
+        float: left;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 20px 18px;
+        text-decoration: none;
+        font-size: 17px;
+        font: 400 15px/1.8 "Lato", sans-serif;
+        transition: 0.5s;
+        
+    }
+
+    /*w3schools(2023)*/
+
+
+    .topnav a:hover {
+        background-color: #D6D6D6;
+        color: #6B6B6B;
+    }
+
+    /*w3schools(2023)*/
+
+
+    .topnav a.active {
+        background-color: #D6D6D6;
+        color: #6B6B6B;
+    }
+
+    /*w3schools(2023)*/
+
+
+    .caption {
+        position: absolute;
+        left: 0;
+        top: 50%;
+        width: 100%;
+        text-align: center;
+        color: #000;
+    }
+
+    /*w3schools(2023)*/
+
+
+    .caption span.border {
+        background-color: #ffffff8d;
+        color: #000000;
+        padding: 8px;
+        font-size: 25px;
+        letter-spacing: 8px;
+    }
+
+    /*w3schools(2023)*/
+
+
+    .caption1 {
+        position: sticky;
+        left: 0;
+        top: 50%;
+        width: 100%;
+        text-align: center;
+        color: #000;
+    }
+
+    /*w3schools(2023)*/
+
+
+    .caption1 span.border {
+        background-color: #ffffff8d;
+        color: #000000;
+        padding: 8px;
+        font-size: 25px;
+        letter-spacing: 8px;
+    }
+
+    /*w3schools(2023)*/
+
+
+    .bgimg-1,
+    .bgimg-2,
+    .bgimg-3,
+    .bgimg-4,
+    .bgimg-5,
+    .bgimg-6,
+    .bgimg-7,
+    .bgimg-8 {
+        position: relative;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+        /*w3schools(2023)*/
+    }
+
+
+
+
+
+    .div-2 {
+        background-color: #333;
+        color: #BFBFBF;
+    }
+
+    /*w3schools(2023)*/
+
+    .order {
+        text-align: center;
+    }
+
+    /*w3schools(2023)*/
+
+    .list {
+        display: inline-block;
+        text-align: center;
+    }
+
+    /*w3schools(2023)*/
+
+
+
+    .grid {
+        width: 100%;
+        max-width: 60rem;
+        margin-left: auto;
+        margin-right: auto;
+
+        display: flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    /*w3schools(2023)*/
+
+    .grid-block {
+        width: 50%;
+        min-height: 11.25rem;
+        padding: 1rem;
+    }
+
+    /*w3schools(2023)*/
+
+    .image-grid {
+
+        -webkit-perspective: 100%;
+        perspective: 100%;
+    }
+
+    /*w3schools(2023)*/
+
+    .image-grid .tile-link:hover .tile-img {
+        top: -1rem;
+        left: -1rem;
+    }
+
+    /*w3schools(2023)*/
+
+    .image-grid .tile-img {
+        position: relative;
+        top: 0;
+        left: 0;
+        -webkit-transition-property: opacity, top, left, box-shadow;
+        transition-property: opacity, top, left, box-shadow;
+
+    }
+
+    /*w3schools(2023)*/
+
+    .tile-link {
+        display: block;
+    }
+
+    /*w3schools(2023)*/
+
+    .tile-link:hover .tile-img {
+        opacity: 1;
+    }
+
+    /*w3schools(2023)*/
+
+    .tile-link:hover .tile-img-link {
+        display: block;
+    }
+
+    /*w3schools(2023)*/
+
+    .tile-link:hover .tile-img-link:hover .tile-img {
+        opacity: 0.5;
+    }
+
+    /*w3schools(2023)*/
+
+    .tile-img {
+        display: block;
+        width: 100%;
+        height: 225px;
+        opacity: 1;
+        -webkit-transition-property: opacity;
+        transition-property: opacity;
+        -webkit-transition-duration: 0.35s;
+        transition-duration: 0.35s;
+        -webkit-transition-timing-function: ease-in-out;
+        transition-timing-function: ease-in-out;
+    }
+
+    /*w3schools(2023)*/
+
+
+    iframe {
+        width: 100%;
+        height: 400px;
+        box-shadow: 20px 20px 50px rgba(91, 91, 91, 0.775);
+    }
+
+    /*w3schools(2023)*/
+
+    .block {
+        color: #5d5d5d;
+        background-color: rgb(202, 202, 202);
+        text-align: center;
+        padding: 50px 80px;
+        transition: 0.5s;
+
+    }
+
+    .block:hover {
+        color: #777;
+        background-color: rgb(255, 255, 255);
+    }
+
+    /*w3schools(2023)*/
+
+
+
+
+    tr :hover {
+        background-color: #000000;
+        color: white;
+        /*w3schools(2023)*/
+    }
+
+
+    .logo {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 95%;
+        height: auto;
+        filter: invert(0.65);
+
+    }
+
+    /*w3schools(2023)*/
+}
+
+
+
+
+
+
+
+@media screen and (max-width:768px) {
+
+    .circle {
+        height: 10px;
+        width: 10px;
+        border-radius: 24px;
+        background-color: black;
+        position: fixed;
+        top: 0;
+        left: 0;
+        pointer-events: none;
+        z-index: 99999999999999999999999;
+    }
+
+    body::-webkit-scrollbar {
+        width: 10px;
+        /*w3schools(2023)*/
+    }
+
+    ::-webkit-scrollbar-track {
+        background: #f1f1f1;
+    }
+
+    /*w3schools(2023)*/
+
+
+    ::-webkit-scrollbar-thumb {
+        background: #888;
+    }
+
+    /*w3schools(2023)*/
+
+
+    ::-webkit-scrollbar-thumb:hover {
+        background: #555;
+    }
+
+    /*w3schools(2023)*/
+
+    body,
+    html {
+        height: 100%;
+        margin: 0;
+        font: 400 15px/1.8 "Lato", sans-serif;
+        color: #777;
+
+        /*w3schools(2023)*/
+    }
+
+
+    h1 {
+        text-align: center;
+        letter-spacing: 5px;
+        text-transform: uppercase;
+        font: 22px "Lato", sans-serif;
+        color: #111;
+        font-style: italic;
+        text-decoration: underline;
+        font-weight: bold;
+    }
+
+    h3 {
+        text-align: center;
+        letter-spacing: 5px;
+        text-transform: uppercase;
+        font: 20px "Lato", sans-serif;
+        color: #111;
+        font-style: italic;
+        text-decoration: underline;
+
+    }
+
+    /*w3schools(2023)*/
+
+
+    p {
+        text-align: center;
+    }
+
+    /*w3schools(2023)*/
+
+
+    table,
+    th,
+    td {
+        border: 1px solid;
+        border-color: #000;
+        border-collapse: collapse;
+        text-align: center;
+    }
+
+    /*w3schools(2023)*/
+
+    tr:nth-child(odd) {
+        background-color: #bbbbbb;
+        color: #777;
+    }
+
+    /*w3schools(2023)*/
+
+    th {
+        padding-top: 12px;
+        padding-bottom: 12px;
+        background-color: #777;
+        color: white;
+    }
+
+    /*w3schools(2023)*/
+
+    table {
+        width: 100%;
+    }
+
+    /*w3schools(2023)*/
+
+
+    * {
+        box-sizing: border-box;
+    }
+
+    /*w3schools(2023)*/
+
+    .row {
+        display: flex;
+    }
+
+    /*w3schools(2023)*/
+
+
+    .column {
+        flex: 33.33%;
+        padding: 5px;
+    }
+
+    /*w3schools(2023)*/
+
+    .column1 {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        /*w3schools(2023)*/
+    }
+
+
+
+
+    .column2 {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+        height: auto;
+        /*w3schools(2023)*/
+    }
+
+
+    .topnav {
+
+        overflow: hidden;
+        background-color: #333;
+        top: 0;
+        width: 100%;
+        z-index: 999;
+    }
+
+    /*w3schools(2023)*/
+
+
+    .topnav a {
+        float: left;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 20px 6px;
+        text-decoration: none;
+        font-size: 17px;
+        font: 400 15px/1.8 "Lato", sans-serif;
+        transition: 0.5s;
+    }
+
+    /*w3schools(2023)*/
+
+
+    .topnav a:hover {
+        background-color: #D6D6D6;
+        color: #6B6B6B;
+    }
+
+    /*w3schools(2023)*/
+
+
+    .topnav a.active {
+        background-color: #D6D6D6;
+        color: #6B6B6B;
+    }
+
+    /*w3schools(2023)*/
+
+
+    .caption {
+        position: absolute;
+        left: 0;
+        top: 50%;
+        width: 100%;
+        text-align: center;
+        color: #000;
+    }
+
+    /*w3schools(2023)*/
+
+
+    .caption span.border {
+        background-color: #ffffff8d;
+        color: #000000;
+        padding: 8px;
+        font-size: 25px;
+        letter-spacing: 8px;
+    }
+
+    /*w3schools(2023)*/
+
+
+    .caption1 {
+        position: sticky;
+        left: 0;
+        top: 50%;
+        width: 100%;
+        text-align: center;
+        color: #000;
+        /*w3schools(2023)*/
+    }
+
+
+    .caption1 span.border {
+        background-color: #ffffff8d;
+        color: #000000;
+        padding: 8px;
+        font-size: 25px;
+        letter-spacing: 8px;
+    }
+
+    /*w3schools(2023)*/
+
+
+    .bgimg-1,
+    .bgimg-2,
+    .bgimg-3,
+    .bgimg-4,
+    .bgimg-5,
+    .bgimg-6,
+    .bgimg-7,
+    .bgimg-8 {
+        position: relative;
+        opacity: 100%;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+    }
+
+    /*w3schools(2023)*/
+
+
+
+    .div-2 {
+        background-color: #333;
+
+        color: #BFBFBF;
+    }
+
+    /*w3schools(2023)*/
+
+    .order {
+        text-align: center;
+    }
+
+    /*w3schools(2023)*/
+
+    .list {
+        display: inline-block;
+        text-align: center;
+    }
+
+    /*w3schools(2023)*/
+
+
+
+    .grid {
+        width: 100%;
+        max-width: 60rem;
+        margin-left: auto;
+        margin-right: auto;
+
+        display: flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    /*w3schools(2023)*/
+
+    .grid-block {
+        width: 100%;
+        min-height: 11.25rem;
+        padding: 1rem;
+    }
+
+    /*w3schools(2023)*/
+
+    .image-grid {
+
+        -webkit-perspective: 100%;
+        perspective: 100%;
+    }
+
+    /*w3schools(2023)*/
+
+    .image-grid .tile-link:hover .tile-img {
+        top: -0.5rem;
+        left: -0.5rem;
+    }
+
+    /*w3schools(2023)*/
+
+    .image-grid .tile-img {
+        position: relative;
+        top: 0;
+        left: 0;
+        -webkit-transition-property: opacity, top, left, box-shadow;
+        transition-property: opacity, top, left, box-shadow;
+    }
+
+    /*w3schools(2023)*/
+
+    .tile-link {
+        display: block;
+    }
+
+    /*w3schools(2023)*/
+
+    .tile-link:hover .tile-img {
+        opacity: 1;
+    }
+
+    /*w3schools(2023)*/
+
+    .tile-link:hover .tile-img-link {
+        display: block;
+    }
+
+    /*w3schools(2023)*/
+
+    .tile-link:hover .tile-img-link:hover .tile-img {
+        opacity: 0.5;
+    }
+
+    /*w3schools(2023)*/
+
+    .tile-img {
+        display: block;
+        width: 100%;
+        height: 225px;
+        opacity: 1;
+        -webkit-transition-property: opacity;
+        transition-property: opacity;
+        -webkit-transition-duration: 0.35s;
+        transition-duration: 0.35s;
+        -webkit-transition-timing-function: ease-in-out;
+        transition-timing-function: ease-in-out;
+    }
+
+    /*w3schools(2023)*/
+
+
+    iframe {
+        width: 100%;
+        height: auto;
+        box-shadow: 20px 20px 50px rgba(91, 91, 91, 0.775);
+    }
+
+    /*w3schools(2023)*/
+
+
+    .block {
+        color: #5d5d5d;
+        background-color: rgb(202, 202, 202);
+        text-align: center;
+        padding: 50px 80px;
+        transition: 0.5s;
+
+    }
+
+    .block:hover {
+        color: #777;
+        background-color: rgb(255, 255, 255);
+    }
+
+    /*w3schools(2023)*/
+
+
+    tr :hover {
+        background-color: #000000;
+        color: white;
+    }
+
+    /*w3schools(2023)*/
+
+    .logo {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 95%;
+        height: auto;
+        filter: invert(0.65);
+    }
+
+    /*w3schools(2023)*/
+
+
+}
